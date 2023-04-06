@@ -1,0 +1,12 @@
+<div class = "row border-bottom">
+<div class=" col-9" style="padding-bottom:8px; margin-bottom:16px">
+<h5 style="margin-top:8px">{{job['title']}}</h5>
+<div><b>Location:</b> {{job['location']}}</div>
+{% if 'salary' in job%}
+<div style="margin-bottom:8px"><b>Salary:</b> {{job['salary']}}</div> 
+{% endif %}
+</div>
+  <div class="col-3">
+  <button type="button" class="btn btn-outline-primary" style="margin-top:8px">Primary</button>
+  </div>
+</div>
